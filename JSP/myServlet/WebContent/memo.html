@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+ <meta charset="utf-8">
+  <TITLE> New Document </TITLE>
+	<SCRIPT LANGUAGE="JavaScript">
+	
+		//폼에 입력된 내용이 아이디로 적당한지 여부...
+		function isID(obj){
+			var str=obj.value;
+			//널체크
+			if(str.length==0){
+				alert("아이디를 입력하세요");
+				obj.focus();
+				return false;
+			}
+			str=str.toUpperCase();
+			//영문이 아닐 경우 체크
+			for(var i=0;i<str.length;i++){
+				if(!( ( 'A'<= str.charAt(i) &&str.charAt(i)<='Z'  )|| 
+				('0' <=str.charAt(i)&&str.charAt(i)<='9') )){
+					alert("아이디는 영문, 숫자만 사용 가능해요");
+					obj.select();
+					return false;
+				}//if-----
+			}//for----
+			return true;
+		}
+		function isEmail(obj){
+			var str=obj.value;
+			if(str==""){
+				alert("이메일 주소를 입력해 주세요");
+				obj.focus();
+				return false;
+			}//if-------
+			var i=str.indexOf("@");
+			//골뱅이 찾아 없으면 -1을 반환, 있으면 해당 인덱스를 반환
+			if(i<0){ 
+				alert("이메일 형식에 맞지 않아요");
+				obj.select();
+				return false;
+			}//if-------
+			i=str.indexOf(".");
+			if(i<0){
+				alert("이메일 형식에 맞지 않아요");
+				obj.select();
+				return false;
+			}//if---------
+			return true;
+		}//isEmail()---------------
+		function check(){
+			if(!isID(f.id)){			
+				return;
+			}
+			if(!isEmail(f.email)){
+				return;
+			}
+			document.f.submit();
+		}
+	</SCRIPT>
+ </HEAD>
+
+ <BODY onLoad="document.f.id.focus();">
+<div style="margin-top:70px;"></div>
+
+ <form name="f" action="memo.do" method="POST" >
+ <div align="center">
+		<table width="600" border="0" cellpadding="7" class="outline">
+			<tr align="center" bgcolor="#DEFEFD" height="50">
+				<td colspan="2" >
+					<font size="4" color="#0033CC" face="굴림체"><b>
+					♠메모 남기기♠
+					</b></font>
+				</td>
+			</tr>
+			<tr>
+				<td width="25%" align="center" class="c1"><b>아이디</b></td>
+				<td>
+					<input type="text" size="40" name="id"  maxlength="10" class="box2">
+				</td>
+			</tr>
+			<tr>
+				<td width="25%" align="center"><b>이메일</b>
+				</td>
+				<td>
+					<input type="text" size="40" name="email"  class="box2">
+				</td>
+			</tr>
+			<tr>
+				<td width="25%" align="center"><b>메모</b>
+				</td>
+				<td>
+					<textarea name="content" cols="50" class="box2"></textarea>
+				</td>
+			</tr>
+			<tr  bgcolor="#DEFEFD">
+				<td colspan="2" align="center"  class="c2">
+					<input type="button" value="전송" onclick="check();">&nbsp;&nbsp;&nbsp;
+					<input type="reset" value="취소">
+				</td>
+			</tr>
+		</table>
+
+ </form>
+ </p>
+ </BODY>
+</HTML>

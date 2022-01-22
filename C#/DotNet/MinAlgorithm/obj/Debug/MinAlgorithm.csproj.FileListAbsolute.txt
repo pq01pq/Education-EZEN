@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\MinAlgorithm\bin\Debug\MinAlgorithm.exe.config
+C:\C\EZEN\C#\repository\DotNet\MinAlgorithm\bin\Debug\MinAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\MinAlgorithm\bin\Debug\MinAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\MinAlgorithm\obj\Debug\MinAlgorithm.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\MinAlgorithm\obj\Debug\MinAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\MinAlgorithm\obj\Debug\MinAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\MinAlgorithm\obj\Debug\MinAlgorithm.csproj.AssemblyReference.cache

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+	<servlet-name>depart</servlet-name>
+	<servlet-class>mvc1.DepartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>depart</servlet-name>
+	<url-pattern>/depart.do</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>student</servlet-name>
+	<servlet-class>student.StudentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>student</servlet-name>
+	<url-pattern>*.st</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>member</servlet-name>
+	<servlet-class>member.MemberServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>member</servlet-name>
+	<url-pattern>*.mem</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>adminShop</servlet-name>
+	<servlet-class>shop.admin.AdminShopServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>adminShop</servlet-name>
+	<url-pattern>*.admin</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>mallShop</servlet-name>
+	<servlet-class>shop.mall.MallShopServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>mallShop</servlet-name>
+	<url-pattern>*.mall</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>board</servlet-name>
+	<servlet-class>board.BoardServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>board</servlet-name>
+	<url-pattern>*.board</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>front</servlet-name>
+	<servlet-class>AppFrontServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>front</servlet-name>
+	<url-pattern>*.do</url-pattern>
+</servlet-mapping>
+</web-app>

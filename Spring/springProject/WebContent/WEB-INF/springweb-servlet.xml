@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+<!-- @Autowired를 이용하기 위해 Namespaces에서 context를 체크하고 context:annotation-config 태그를 써줌 -->
+<context:annotation-config/>	
+
+<!-- 컨트롤러에서 viewName을 받아서 prefix와 suffix를 붙여서 url을 만듬 -->
+<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<property name="prefix" value="WEB-INF/jsp/"/>
+	<property name="suffix" value=".jsp"/>
+</bean>
+
+<!-- <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+	<property name="jndiName" value="jdbc/oracle"/>
+	<property name="resourceRef" value="true"/>
+</bean> -->
+
+
+<!-- data access -->
+
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/> <!-- setDriverClassName() -->
+	<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+	<property name="username" value="bigdata3"/>
+	<property name="password" value="bigdata3"/>
+</bean>
+
+<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+	<property name="dataSource" ref="dataSource"/>
+</bean>
+
+<bean id="studentDAO" class="student.dao.StudentDAOImpl">
+	<property name="jdbcTemplate" ref="jdbcTemplate"/>
+</bean>
+
+<bean id="memberDAO" class="member.dao.MemberDAOImpl">
+	<property name="jdbcTemplate" ref="jdbcTemplate"/>
+</bean>
+
+<bean id="boardDAO" class="board.dao.BoardDAOImpl">
+	<property name="jdbcTemplate" ref="jdbcTemplate"/>
+</bean>
+
+
+<!-- controller -->
+<!-- student -->
+
+<bean class="student.controller.StudentController"/>
+
+<!-- student_index.do 커맨드로 StudentIndexCommand를 받아오는 것과 같음 -->
+<!-- <bean name="/student_index.do" class="student.controller.StudentIndexController"/> -->
+
+<!-- <bean name="/student_list.do" class="student.controller.StudentListController">
+	<property name="studentDAO" ref="studentDAO"/>
+</bean> -->
+
+<!-- <bean name="/student_input.do" class="student.controller.StudentInputController"/> -->
+
+<!-- <bean name="/student_insert.do" class="student.controller.StudentInsertCommandController">
+	<property name="commandClass" value="student.dto.StudentDTO"/>
+	<property name="commandName" value="studentCmd"/>
+	<property name="studentDAO" ref="studentDAO"/>
+</bean> -->
+
+<!-- <bean name="/student_delete_input.do" class="student.controller.StudentDeleteInputController"/> -->
+
+<!-- <bean name="/student_delete.do" class="student.controller.StudentDeleteController">
+	<property name="studentDAO" ref="studentDAO"/>
+</bean> -->
+
+<!-- <bean name="/student_find.do" class="student.controller.StudentFindController">
+	<property name="studentDAO" ref="studentDAO"/>
+</bean> -->
+
+
+<!-- member -->
+
+<bean class="member.controller.MemberController"/>
+
+<!-- <bean name="/member_search.do" class="member.controller.MemberSearchController">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/member_ssn.do" class="member.controller.MemberSsnController"/> -->
+
+<!-- <bean name="/member_check.do" class="member.controller.MemberCheckController">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/member_input.do" class="member.controller.MemberInputController"/> -->
+
+<!-- <bean name="/member_insert.do" class="member.controller.MemberInsertController">
+	<property name="commandClass" value="member.dto.MemberDTO"/>
+	<property name="commandName" value="memberCmd"/>
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/member_update_input.do" class="member.controller.MemberUpdateInputController">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/member_update.do" class="member.controller.MemberUpdateController">
+	<property name="commandClass" value="member.dto.MemberDTO"/>
+	<property name="commandName" value="memberCmd"/>
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/member_delete.do" class="member.controller.MemberDeleteController">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+
+<!-- board -->
+<!-- <bean name="/board_write.do" class="board.controller.BoardListController">
+	<property name="boardDAO" ref="boardDAO"/>
+</bean> -->
+
+<bean name="/board_list.do" class="board.controller.BoardListController">
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+
+<bean name="/board_context.do" class="board.controller.BoardContextController">
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+
+</beans>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<property name="driverClassName"> <!-- setDriverClassName() -->
+		<value>oracle.jdbc.driver.OracleDriver</value> <!-- value : 값을 직접 집어넣을 때 -->
+	</property>
+	<property name="url">
+		<value>jdbc:oracle:thin:@localhost:1521:xe</value>
+	</property>
+	<property name="username" value="bigdata3"/>
+	<property name="password" value="bigdata3"/>
+</bean>
+
+<bean id="teamDAO" class="dao.impl.TeamDAOImpl">
+	<constructor-arg>
+		<ref bean="dataSource"/> <!-- ref :현재 xml파일에서 생성된 빈을 집어넣을 때 -->
+	</constructor-arg>
+</bean>
+
+<bean id="memberDAO" class="dao.impl.MemberDAOImpl">
+	<constructor-arg>
+		<ref bean="dataSource"/> <!-- ref :현재 xml파일에서 생성된 빈을 집어넣을 때 -->
+	</constructor-arg>
+</bean>
+
+<bean id="selectTeamView" class="view.SelectTeamView">
+	<property name="teamDAO" ref="teamDAO"/>
+</bean>
+
+<bean id="insertMemeberView" class="view.InsertMemberView">
+	<property name="teamDAO" ref="teamDAO"/>
+	<property name="memberDAO" ref="memberDAO"/>
+</bean>
+
+<bean id="selectMemberView" class="view.SelectMemberView">
+	<property name="memberDAO" ref="memberDAO"/>
+	<property name="deleteMemberView" ref="deleteMemberView"/>
+	<property name="updateMemberView" ref="updateMemberView"/>
+</bean>
+
+<bean id="updateMemberView" class="view.UpdateMemberView">
+	<property name="memberDAO" ref="memberDAO"/>
+	<property name="teamDAO" ref="teamDAO"/>
+</bean>
+
+<bean id="deleteMemberView" class="view.DeleteMemberView">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean>
+
+<bean id="mainView" class="view.MainView">
+	<property name="selectTeamView" ref="selectTeamView"/>
+	<property name="insertMemberView" ref="insertMemeberView"/>
+	<property name="selectMemberView" ref="selectMemberView"/>
+</bean>
+
+</beans>

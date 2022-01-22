@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\MaxAlgorithm\bin\Debug\MaxAlgorithm.exe.config
+C:\C\EZEN\C#\repository\DotNet\MaxAlgorithm\bin\Debug\MaxAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\MaxAlgorithm\bin\Debug\MaxAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\MaxAlgorithm\obj\Debug\MaxAlgorithm.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\MaxAlgorithm\obj\Debug\MaxAlgorithm.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\MaxAlgorithm\obj\Debug\MaxAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\MaxAlgorithm\obj\Debug\MaxAlgorithm.pdb

@@ -1,0 +1,6 @@
+C:\C\EZEN\C#\repository\DotNet\ArithmeticSequence\bin\Debug\ArithmeticSequence.exe.config
+C:\C\EZEN\C#\repository\DotNet\ArithmeticSequence\bin\Debug\ArithmeticSequence.exe
+C:\C\EZEN\C#\repository\DotNet\ArithmeticSequence\bin\Debug\ArithmeticSequence.pdb
+C:\C\EZEN\C#\repository\DotNet\ArithmeticSequence\obj\Debug\ArithmeticSequence.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\ArithmeticSequence\obj\Debug\ArithmeticSequence.exe
+C:\C\EZEN\C#\repository\DotNet\ArithmeticSequence\obj\Debug\ArithmeticSequence.pdb

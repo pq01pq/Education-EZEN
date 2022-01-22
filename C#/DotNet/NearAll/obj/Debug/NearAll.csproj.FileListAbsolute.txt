@@ -1,0 +1,6 @@
+C:\C\EZEN\C#\repository\DotNet\NearAll\bin\Debug\NearAll.exe.config
+C:\C\EZEN\C#\repository\DotNet\NearAll\bin\Debug\NearAll.exe
+C:\C\EZEN\C#\repository\DotNet\NearAll\bin\Debug\NearAll.pdb
+C:\C\EZEN\C#\repository\DotNet\NearAll\obj\Debug\NearAll.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\NearAll\obj\Debug\NearAll.exe
+C:\C\EZEN\C#\repository\DotNet\NearAll\obj\Debug\NearAll.pdb

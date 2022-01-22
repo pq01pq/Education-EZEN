@@ -1,0 +1,6 @@
+C:\C\EZEN\C#\repository\DotNet\AverageCount\bin\Debug\AverageCount.exe.config
+C:\C\EZEN\C#\repository\DotNet\AverageCount\bin\Debug\AverageCount.exe
+C:\C\EZEN\C#\repository\DotNet\AverageCount\bin\Debug\AverageCount.pdb
+C:\C\EZEN\C#\repository\DotNet\AverageCount\obj\Debug\AverageCount.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\AverageCount\obj\Debug\AverageCount.exe
+C:\C\EZEN\C#\repository\DotNet\AverageCount\obj\Debug\AverageCount.pdb

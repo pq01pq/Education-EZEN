@@ -1,0 +1,16 @@
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\bin\Debug\net5.0\PrimeNumber.exe
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\bin\Debug\net5.0\PrimeNumber.deps.json
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\bin\Debug\net5.0\PrimeNumber.runtimeconfig.json
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\bin\Debug\net5.0\PrimeNumber.runtimeconfig.dev.json
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\bin\Debug\net5.0\PrimeNumber.dll
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\bin\Debug\net5.0\ref\PrimeNumber.dll
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\bin\Debug\net5.0\PrimeNumber.pdb
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\obj\Debug\net5.0\PrimeNumber.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\obj\Debug\net5.0\PrimeNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\obj\Debug\net5.0\PrimeNumber.AssemblyInfoInputs.cache
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\obj\Debug\net5.0\PrimeNumber.AssemblyInfo.cs
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\obj\Debug\net5.0\PrimeNumber.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\obj\Debug\net5.0\PrimeNumber.dll
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\obj\Debug\net5.0\ref\PrimeNumber.dll
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\obj\Debug\net5.0\PrimeNumber.pdb
+C:\C\EZEN\C#\repository\DotNet\PrimeNumber\obj\Debug\net5.0\PrimeNumber.genruntimeconfig.cache

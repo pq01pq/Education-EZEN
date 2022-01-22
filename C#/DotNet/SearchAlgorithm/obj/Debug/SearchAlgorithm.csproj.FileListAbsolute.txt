@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\SearchAlgorithm\bin\Debug\SearchAlgorithm.exe.config
+C:\C\EZEN\C#\repository\DotNet\SearchAlgorithm\bin\Debug\SearchAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\SearchAlgorithm\bin\Debug\SearchAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\SearchAlgorithm\obj\Debug\SearchAlgorithm.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\SearchAlgorithm\obj\Debug\SearchAlgorithm.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\SearchAlgorithm\obj\Debug\SearchAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\SearchAlgorithm\obj\Debug\SearchAlgorithm.pdb

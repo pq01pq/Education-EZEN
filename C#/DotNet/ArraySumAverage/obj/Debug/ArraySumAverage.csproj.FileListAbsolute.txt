@@ -1,0 +1,6 @@
+C:\C\EZEN\C#\repository\DotNet\ArraySumAverage\bin\Debug\ArraySumAverage.exe.config
+C:\C\EZEN\C#\repository\DotNet\ArraySumAverage\bin\Debug\ArraySumAverage.exe
+C:\C\EZEN\C#\repository\DotNet\ArraySumAverage\bin\Debug\ArraySumAverage.pdb
+C:\C\EZEN\C#\repository\DotNet\ArraySumAverage\obj\Debug\ArraySumAverage.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\ArraySumAverage\obj\Debug\ArraySumAverage.exe
+C:\C\EZEN\C#\repository\DotNet\ArraySumAverage\obj\Debug\ArraySumAverage.pdb

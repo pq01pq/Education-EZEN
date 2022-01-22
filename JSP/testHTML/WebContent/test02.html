@@ -1,0 +1,21 @@
+<!-- test02.html -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>표 그리기</title>
+</head>
+<body>
+	<div align="center">
+		<hr color="green" width="300"> <!-- 수평선 -->
+		<h2>표 그리기 예제</h2>
+		<hr color="green" width="300">
+		
+		<table border="1" width="500" bordercolor="red" bgcolor="yellow" cellpadding="5">
+			<tr> <th width="10%">번호</th> <th width="40%">이름</th> <th width="25%">전화번호1</th> <th width="25%">전화번호2</th> </tr>
+			<tr> <td rowspan="2" align="center">1</td> <td>강호동</td> <td colspan="2" align="center">010-111</td> <!-- <td>010-111</td> --> </tr>
+			<tr> <!-- <td>1</td> --> <td>강호동</td> <td>010-111</td> <td>010-111</td> </tr>
+		</table>
+	</div>
+	
+</body>
+</html>

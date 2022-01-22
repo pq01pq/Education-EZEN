@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+<context:annotation-config/>
+
+<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
+
+<bean class="board2.controller.FileUploadController"/>
+
+<!-- 컨트롤러에서 viewName을 받아서 prefix와 suffix를 붙여서 url을 만듬 -->
+<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+	<property name="prefix" value="WEB-INF/jsp/"/>
+	<property name="suffix" value=".jsp"/>
+</bean>
+
+<!-- <bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
+	<property name="jndiName" value="jdbc/oracle"/>
+	<property name="resourceRef" value="true"/>
+</bean> -->
+
+
+<!-- data access -->
+
+<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/> <!-- setDriverClassName() -->
+	<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
+	<property name="username" value="bigdata3"/>
+	<property name="password" value="bigdata3"/>
+</bean>
+
+<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+	<property name="dataSource" ref="dataSource"/>
+</bean>
+
+<bean id="boardDAO" class="board.dao.BoardDAOImpl">
+	<property name="jdbcTemplate" ref="jdbcTemplate"/>
+</bean>
+
+<!-- <bean id="memberDAO" class="member.dao.MemberDAOImpl">
+	<property name="jdbcTemplate" ref="jdbcTemplate"/>
+</bean> -->
+
+
+<!-- controller -->
+<!-- board -->
+
+<bean name="/start.board" class="board.controller.BoardListController">
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+
+<bean name="/list.board" class="board.controller.BoardListController">
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+
+<bean name="/context.board" class="board.controller.BoardContextController">
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+
+<bean name="/write.board" class="board.controller.BoardWriteController"/>
+
+<bean name="/insert.board" class="board.controller.BoardInsertController">
+	<property name="commandClass" value="board.dto.BoardDTO"/>
+	<property name="commandName" value="boardCmd"/>
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+
+<bean name="/check.board" class="board.controller.BoardCheckPasswdController"/>
+
+<bean name="/update_input.board" class="board.controller.BoardUpdateInputController">
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+
+<bean name="/update.board" class="board.controller.BoardUpdateController">
+	<property name="commandClass" value="board.dto.BoardDTO"/>
+	<property name="commandName" value="boardCmd"/>
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+
+<bean name="/delete.board" class="board.controller.BoardDeleteController">
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+
+<!-- board2 -->
+
+<bean class="board2.controller.Board2Controller">
+	<property name="boardDAO" ref="boardDAO"/>
+</bean>
+<!-- 
+<bean name="/start.board2" class="board2.controller.Board2Controller"/>
+
+<bean name="/list.board2" class="board2.controller.Board2Controller"/>
+
+<bean name="/context.board2" class="board2.controller.Board2Controller"/>
+
+<bean name="/write.board2" class="board2.controller.Board2Controller"/>
+
+<bean name="/insert.board2" class="board2.controller.Board2Controller"/> -->
+
+<!-- member -->
+
+<bean class="member.controller.MemberController"/>
+
+<!-- <bean name="/start.mem" class="member.controller.MemberSearchController">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/search.mem" class="member.controller.MemberSearchController">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/ssn.mem" class="member.controller.MemberSsnController"/> -->
+
+<!-- <bean name="/check.mem" class="member.controller.MemberCheckController">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/input.mem" class="member.controller.MemberInputController"/> -->
+
+<!-- <bean name="/insert.mem" class="member.controller.MemberInsertController">
+	<property name="commandClass" value="member.dto.MemberDTO"/>
+	<property name="commandName" value="memberCmd"/>
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/update_input.mem" class="member.controller.MemberUpdateInputController">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/update.mem" class="member.controller.MemberUpdateController">
+	<property name="commandClass" value="member.dto.MemberDTO"/>
+	<property name="commandName" value="memberCmd"/>
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/delete.mem" class="member.controller.MemberDeleteController">
+	<property name="memberDAO" ref="memberDAO"/>
+</bean> -->
+
+<!-- <bean name="/login.mem" class="member.controller.LoginController"/> -->
+
+<!-- <bean name="/loginOk.mem" class="member.controller.LoginOkController"/> -->
+
+<!-- <bean name="/logout.mem" class="member.controller.LogoutController"/> -->
+
+</beans>

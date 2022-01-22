@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="board2.mybatis.Board2Mapper">
+
+<insert id="insert" parameterType="board2DTO">
+	insert into board2(num,writer,email,subject,passwd,reg_date,content,ip,filename,filesize)
+	values(board2_seq.nextval,#{writer},#{email},#{subject},#{passwd},sysdate,#{content},#{ip},#{filename},#{filesize})";
+</insert>
+
+<select id="count" parameterType="board2DTO" resultType="int">
+	select count(*) from board2
+</select>
+
+<select id="selectAll" resultType="board2DTO">
+	select * from board2 order by num desc
+</select>
+
+<select id="selectColKey" parameterType="java.util.Map" resultType="board2DTO">
+	select * from board2 where ${column}=#{key} order by num desc
+</select>
+
+<select id="select" parameterType="int" resultType="board2DTO">
+	select * from board2 where num=#{num} order by num desc
+</select>
+
+<select id="selectPage" parameterType="java.util.Map" resultType="board2DTO">
+	select * from (
+		select rownum rnum,b.* from (
+			select * from board order by re_group desc, re_step asc
+		) b
+	) where rnum <![CDATA[ > ]]> #{start} and rnum <![CDATA[ <= ]]> #{end}
+</select>
+
+<select id="searchKey" parameterType="String" resultType="board2DTO">
+	select * from board2 where
+	subject like #{key} or content like #{key}
+	order by num desc
+</select>
+
+<select id="searchColKey" parameterType="java.util.Map" resultType="board2DTO">
+	select * from board2 where ${column} like #{key} order by num desc
+</select>
+
+<update id="update">
+
+</update>
+
+<delete id="delete" parameterType="int">
+	delete from board2 where num=#{num}
+</delete>
+
+</mapper>

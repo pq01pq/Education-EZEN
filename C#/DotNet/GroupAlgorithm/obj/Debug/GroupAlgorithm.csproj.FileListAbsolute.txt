@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\GroupAlgorithm\bin\Debug\GroupAlgorithm.exe.config
+C:\C\EZEN\C#\repository\DotNet\GroupAlgorithm\bin\Debug\GroupAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\GroupAlgorithm\bin\Debug\GroupAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\GroupAlgorithm\obj\Debug\GroupAlgorithm.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\GroupAlgorithm\obj\Debug\GroupAlgorithm.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\GroupAlgorithm\obj\Debug\GroupAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\GroupAlgorithm\obj\Debug\GroupAlgorithm.pdb

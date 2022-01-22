@@ -1,0 +1,6 @@
+C:\C\EZEN\C#\repository\DotNet\NearValue\obj\Debug\NearValue.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\NearValue\bin\Debug\NearValue.exe.config
+C:\C\EZEN\C#\repository\DotNet\NearValue\bin\Debug\NearValue.exe
+C:\C\EZEN\C#\repository\DotNet\NearValue\bin\Debug\NearValue.pdb
+C:\C\EZEN\C#\repository\DotNet\NearValue\obj\Debug\NearValue.exe
+C:\C\EZEN\C#\repository\DotNet\NearValue\obj\Debug\NearValue.pdb

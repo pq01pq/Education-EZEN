@@ -1,0 +1,29 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form 태그</title>
+</head>
+<body>
+	<form name="f" action="result.jsp" method="post">
+		아이디 : <input type="text" name="id" placeholder="아이디"><br>
+		비밀번호 : <input type="password" name="pw" placeholder="••••••••"><br>
+		
+		나이&nbsp;
+		<select name="age">
+			<option value="10">10대</option>
+			<option value="20">20대</option>
+			<option value="30">30대</option>
+			<option value="40">40대</option>
+			<option value="50">50대</option>
+		</select><br>
+		
+		전송내용<br>
+		<textarea name="content" rows="5" cols="60" placeholder="10자이상 써주게나 친구"
+			style="resize: none;"></textarea><br>
+		
+		<input type="submit" value="전송">
+		<input type="reset" value="취소">
+	</form>
+</body>
+</html>

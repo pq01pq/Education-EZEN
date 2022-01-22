@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\MergeAlgorithm\bin\Debug\MergeAlgorithm.exe.config
+C:\C\EZEN\C#\repository\DotNet\MergeAlgorithm\bin\Debug\MergeAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\MergeAlgorithm\bin\Debug\MergeAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\MergeAlgorithm\obj\Debug\MergeAlgorithm.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\MergeAlgorithm\obj\Debug\MergeAlgorithm.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\MergeAlgorithm\obj\Debug\MergeAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\MergeAlgorithm\obj\Debug\MergeAlgorithm.pdb

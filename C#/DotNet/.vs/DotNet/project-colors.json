@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    },
+    "4523a733-fe8a-4b2a-8f96-b8b8836f1adb": {
+      "ProjectGuid": "4523a733-fe8a-4b2a-8f96-b8b8836f1adb",
+      "DisplayName": "PrimeNumber",
+      "ColorIndex": 0
+    },
+    "7b6a2315-9352-437c-b0a8-61a5a20906b9": {
+      "ProjectGuid": "7b6a2315-9352-437c-b0a8-61a5a20906b9",
+      "DisplayName": "ArithmeticSequence",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

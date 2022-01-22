@@ -1,0 +1,6 @@
+C:\C\EZEN\C#\repository\DotNet\CountAlgorithm\bin\Debug\CountAlgorithm.exe.config
+C:\C\EZEN\C#\repository\DotNet\CountAlgorithm\bin\Debug\CountAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\CountAlgorithm\bin\Debug\CountAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\CountAlgorithm\obj\Debug\CountAlgorithm.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\CountAlgorithm\obj\Debug\CountAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\CountAlgorithm\obj\Debug\CountAlgorithm.pdb

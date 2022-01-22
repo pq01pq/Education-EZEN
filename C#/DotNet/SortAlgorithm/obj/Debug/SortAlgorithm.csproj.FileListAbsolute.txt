@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\SortAlgorithm\bin\Debug\SortAlgorithm.exe.config
+C:\C\EZEN\C#\repository\DotNet\SortAlgorithm\bin\Debug\SortAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\SortAlgorithm\bin\Debug\SortAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\SortAlgorithm\obj\Debug\SortAlgorithm.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\SortAlgorithm\obj\Debug\SortAlgorithm.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\SortAlgorithm\obj\Debug\SortAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\SortAlgorithm\obj\Debug\SortAlgorithm.pdb

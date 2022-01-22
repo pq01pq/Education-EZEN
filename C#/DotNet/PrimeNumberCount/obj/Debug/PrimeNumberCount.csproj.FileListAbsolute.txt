@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\PrimeNumberCount\bin\Debug\PrimeNumberCount.exe.config
+C:\C\EZEN\C#\repository\DotNet\PrimeNumberCount\bin\Debug\PrimeNumberCount.exe
+C:\C\EZEN\C#\repository\DotNet\PrimeNumberCount\bin\Debug\PrimeNumberCount.pdb
+C:\C\EZEN\C#\repository\DotNet\PrimeNumberCount\obj\Debug\PrimeNumberCount.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\PrimeNumberCount\obj\Debug\PrimeNumberCount.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\PrimeNumberCount\obj\Debug\PrimeNumberCount.exe
+C:\C\EZEN\C#\repository\DotNet\PrimeNumberCount\obj\Debug\PrimeNumberCount.pdb

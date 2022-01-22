@@ -1,0 +1,6 @@
+C:\C\EZEN\C#\repository\DotNet\ModeAlgorithm\bin\Debug\ModeAlgorithm.exe.config
+C:\C\EZEN\C#\repository\DotNet\ModeAlgorithm\bin\Debug\ModeAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\ModeAlgorithm\bin\Debug\ModeAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\ModeAlgorithm\obj\Debug\ModeAlgorithm.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\ModeAlgorithm\obj\Debug\ModeAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\ModeAlgorithm\obj\Debug\ModeAlgorithm.pdb

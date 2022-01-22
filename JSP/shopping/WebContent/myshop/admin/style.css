@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+th, td {
+	align-content: center;
+}
+
+textarea {
+	resize: none;
+}

@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\DotNet\obj\Debug\DotNet.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\DotNet\obj\Debug\DotNet.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\DotNet\bin\Debug\DotNet.exe.config
+C:\C\EZEN\C#\repository\DotNet\DotNet\bin\Debug\DotNet.exe
+C:\C\EZEN\C#\repository\DotNet\DotNet\bin\Debug\DotNet.pdb
+C:\C\EZEN\C#\repository\DotNet\DotNet\obj\Debug\DotNet.exe
+C:\C\EZEN\C#\repository\DotNet\DotNet\obj\Debug\DotNet.pdb

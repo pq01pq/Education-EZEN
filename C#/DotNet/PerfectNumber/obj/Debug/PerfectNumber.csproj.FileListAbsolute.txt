@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\PerfectNumber\bin\Debug\PerfectNumber.exe.config
+C:\C\EZEN\C#\repository\DotNet\PerfectNumber\bin\Debug\PerfectNumber.exe
+C:\C\EZEN\C#\repository\DotNet\PerfectNumber\bin\Debug\PerfectNumber.pdb
+C:\C\EZEN\C#\repository\DotNet\PerfectNumber\obj\Debug\PerfectNumber.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\PerfectNumber\obj\Debug\PerfectNumber.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\PerfectNumber\obj\Debug\PerfectNumber.exe
+C:\C\EZEN\C#\repository\DotNet\PerfectNumber\obj\Debug\PerfectNumber.pdb

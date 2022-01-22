@@ -1,0 +1,7 @@
+C:\C\EZEN\C#\repository\DotNet\RankAlgorithm\bin\Debug\RankAlgorithm.exe.config
+C:\C\EZEN\C#\repository\DotNet\RankAlgorithm\bin\Debug\RankAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\RankAlgorithm\bin\Debug\RankAlgorithm.pdb
+C:\C\EZEN\C#\repository\DotNet\RankAlgorithm\obj\Debug\RankAlgorithm.csproj.AssemblyReference.cache
+C:\C\EZEN\C#\repository\DotNet\RankAlgorithm\obj\Debug\RankAlgorithm.csproj.CoreCompileInputs.cache
+C:\C\EZEN\C#\repository\DotNet\RankAlgorithm\obj\Debug\RankAlgorithm.exe
+C:\C\EZEN\C#\repository\DotNet\RankAlgorithm\obj\Debug\RankAlgorithm.pdb
